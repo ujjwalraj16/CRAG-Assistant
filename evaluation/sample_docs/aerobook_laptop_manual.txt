@@ -1,0 +1,13 @@
+AeroBook Pro 14 Product Manual
+
+Hardware Specifications:
+- Display: 14-inch 2.8K OLED anti-glare panel, 400 nits brightness.
+- Memory & Storage: 16GB LPDDR5 RAM and 512GB NVMe SSD.
+- Weight: 1.28 kg aluminum unibody chassis.
+- Ports: 1x HDMI 2.1 output port, 2x Thunderbolt 4 USB-C ports, 1x 3.5mm audio jack.
+- Battery & Charging: 14-hour video playback battery life; includes a 65W USB-C fast charger in the box.
+
+Warranty Coverage:
+- The AeroBook Pro 14 includes a 2-year battery warranty and standard hardware defect coverage from the original purchase date.
+- Warranty service requires the original purchase receipt and device serial number.
+

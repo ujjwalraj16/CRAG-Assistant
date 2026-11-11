@@ -1,0 +1,79 @@
+{
+  "dataset_name": "crag_multi_domain_v1",
+  "description": "Manually labelled multi-domain benchmark dataset for comparing Basic RAG vs Adaptive CRAG across Electronics, Policies, Banking, and Out-of-Scope queries.",
+  "samples": [
+    {
+      "id": "q1",
+      "category": "Laptops",
+      "query": "How long is the AeroBook Pro 14 battery warranty and what charger wattage does it include?",
+      "relevant_docs": ["aerobook_laptop_manual.txt"],
+      "expected_facts": ["2-year", "65W", "USB-C"],
+      "ground_truth_answer": "The AeroBook Pro 14 includes a 2-year battery warranty and comes with a 65W USB-C fast charger.",
+      "unanswerable_internally": false
+    },
+    {
+      "id": "q2",
+      "category": "Company Policies",
+      "query": "What is the return window for opened laptops and what documentation is required?",
+      "relevant_docs": ["store_return_policy.txt"],
+      "expected_facts": ["15-day", "receipt", "serial number"],
+      "ground_truth_answer": "Opened laptops have a 15-day return window with all original accessories, and returns require the original purchase receipt and matching serial number.",
+      "unanswerable_internally": false
+    },
+    {
+      "id": "q3",
+      "category": "Banking",
+      "query": "What is the APY and FDIC coverage limit for the FinServe High-Yield Savings account?",
+      "relevant_docs": ["finserve_savings_faq.txt"],
+      "expected_facts": ["4.25%", "250,000"],
+      "ground_truth_answer": "The FinServe High-Yield Savings account offers 4.25% APY and is FDIC insured up to $250,000 per depositor.",
+      "unanswerable_internally": false
+    },
+    {
+      "id": "q4",
+      "category": "Smartphones",
+      "query": "Does the Nova X5 resist water immersion and what is its main camera resolution?",
+      "relevant_docs": ["nova_phone_guide.txt"],
+      "expected_facts": ["IP68", "50MP"],
+      "ground_truth_answer": "Yes, the Nova X5 has IP68 dust and water immersion resistance and features a 50MP main camera with OIS.",
+      "unanswerable_internally": false
+    },
+    {
+      "id": "q5",
+      "category": "Comparison",
+      "query": "Compare the warranty duration between the AeroBook Pro 14 and the Nova X5.",
+      "relevant_docs": ["aerobook_laptop_manual.txt", "nova_phone_guide.txt"],
+      "expected_facts": ["2-year", "1-year"],
+      "ground_truth_answer": "The AeroBook Pro 14 includes a 2-year battery warranty, whereas the Nova X5 carries a 1-year limited manufacturer warranty.",
+      "unanswerable_internally": false
+    },
+    {
+      "id": "q6",
+      "category": "Out of Scope",
+      "query": "What is the retail price of the AeroBook Pro 14 in India and does it include free wireless earbuds?",
+      "relevant_docs": [],
+      "expected_facts": [],
+      "ground_truth_answer": "The supplied documents do not specify the price of the AeroBook Pro 14 in India or mention free wireless earbuds.",
+      "unanswerable_internally": true
+    },
+    {
+      "id": "q7",
+      "category": "Out of Scope",
+      "query": "What is the mortgage interest rate for FinServe home loans?",
+      "relevant_docs": [],
+      "expected_facts": [],
+      "ground_truth_answer": "The supplied documents only cover FinServe High-Yield Savings accounts and do not provide mortgage interest rates for home loans.",
+      "unanswerable_internally": true
+    },
+    {
+      "id": "q8",
+      "category": "Laptops",
+      "query": "What is the weight and HDMI port version of the AeroBook Pro 14?",
+      "relevant_docs": ["aerobook_laptop_manual.txt"],
+      "expected_facts": ["1.28 kg", "HDMI 2.1"],
+      "ground_truth_answer": "The AeroBook Pro 14 weighs 1.28 kg and includes an HDMI 2.1 output port.",
+      "unanswerable_internally": false
+    }
+  ]
+}
+

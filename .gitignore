@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+backend/.env
+*.env.local
+
+# Explicitly excluded per repository preference
+INTERVIEW_PREPARATION.md
+
+# Python virtual environment & caches
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Runtime SQLite, uploads & FAISS index data
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+*.faiss
+
+# Generated local benchmark output artifacts
+evaluation/benchmark_results/*.json
+evaluation/benchmark_results/*.md
+
+# Frontend dependencies & build output
+frontend/node_modules/
+frontend/dist/
+
+# macOS & IDE metadata
+.DS_Store
+.vscode/
+.idea/
+
