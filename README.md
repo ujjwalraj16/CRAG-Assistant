@@ -1,4 +1,4 @@
-# CRAG PIPELINE (NEXUS AI) — Adaptive Corrective Retrieval-Augmented Generation System
+# CRAG AI ASSISTANT — Adaptive Corrective Retrieval-Augmented Generation System
 
 An intelligent, domain-agnostic product information and customer support assistant built with **Corrective Retrieval-Augmented Generation (CRAG)**, local LLM inference via **Ollama**, vector search with **FAISS** and **Sentence Transformers**, optional **Tavily** external web fallback, and an interactive **React + Tailwind CSS** SaaS dashboard.
 
@@ -6,7 +6,7 @@ An intelligent, domain-agnostic product information and customer support assista
 
 ## 1. Project Overview
 
-**CRAG AI** (branded **NEXUS AI** in the UI) answers user questions across arbitrary uploaded knowledge bases (PDF, DOCX, TXT, CSV) and external web sources. Rather than trusting vector similarity blindly, the system evaluates whether retrieved evidence actually answers the user's question, rewrites poorly performing queries, falls back to external web search when internal documents are insufficient, filters noisy evidence, and verifies answer grounding before returning a final response.
+**CRAG AI ASSISTANT** answers user questions across arbitrary uploaded knowledge bases (PDF, DOCX, TXT, CSV) and external web sources. Rather than trusting vector similarity blindly, the system evaluates whether retrieved evidence actually answers the user's question, rewrites poorly performing queries, falls back to external web search when internal documents are insufficient, filters noisy evidence, and verifies answer grounding before returning a final response.
 
 ---
 
