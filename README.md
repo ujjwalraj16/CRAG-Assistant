@@ -94,10 +94,9 @@ flowchart TD
 
 ---
 
-## 8. Installation & Local Execution (macOS Apple Silicon, No Docker)
+## 8. Installation & Local Execution
 
 ### Prerequisites
-- macOS (Apple Silicon supported)
 - Python 3.11+
 - Node.js 18+ & npm
 - [Ollama](https://ollama.com) installed locally
