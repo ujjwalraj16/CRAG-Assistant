@@ -1,4 +1,4 @@
-# CRAG AI (NEXUS AI) — Adaptive Corrective Retrieval-Augmented Generation System
+# CRAG PIPELINE (NEXUS AI) — Adaptive Corrective Retrieval-Augmented Generation System
 
 An intelligent, domain-agnostic product information and customer support assistant built with **Corrective Retrieval-Augmented Generation (CRAG)**, local LLM inference via **Ollama**, vector search with **FAISS** and **Sentence Transformers**, optional **Tavily** external web fallback, and an interactive **React + Tailwind CSS** SaaS dashboard.
 
